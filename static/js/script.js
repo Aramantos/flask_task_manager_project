@@ -8,6 +8,7 @@
   $(document).ready(function(){
     $('.sidenav').sidenav({edge: "right"});
     $('.collapsible').collapsible();
+    $('.tooltipped').tooltip();
   });
 
   /*  document.addEventListener('DOMContentLoaded', function() {
@@ -20,3 +21,15 @@
   $(document).ready(function(){
     $('.collapsible').collapsible();
   }); */
+
+
+//   document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.tooltipped');
+//     var instances = M.Tooltip.init(elems, options);
+//   });
+
+//   // Or with jQuery
+
+//   $(document).ready(function(){
+//     $('.tooltipped').tooltip();
+//   });
